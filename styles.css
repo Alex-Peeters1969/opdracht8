@@ -1,0 +1,124 @@
+Body{ 
+    background-color: darkgray;
+    color: yellow;
+}
+       .black-border{ 
+         border: 2px solid black;
+         font-size: 024px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         line-height: 4em;
+         text-align: center;
+         background-image:url("IMG-20200418-WA0002.jpg");
+         background-position: 100px 600px
+    }  
+     .id{
+        background-color: green;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
+        serif;
+        padding: 20px 20px;
+     }    
+     .box-2{
+        border: 2px solid black;
+        background-image:url("IMG-20200613-WA0000.jpg");
+        background-position: 800px 600px;
+     }   
+     .block{
+         float: left;
+         width: 33.3%;
+         border: 1px solid black;
+         padding: 10px;
+         box-sizing: border-box;
+     }
+    .box-3{
+         line-height: 3.5em;
+         background-image:url("IMG-20200613-WA0000.jpg");
+         background-position: 800px 600px;
+     }
+    .box-1{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .container{ 
+        display: flex;
+        justify-content: space-around;
+        padding: 250px;
+        text-align: center;
+        flex-wrap: wrap;
+      
+       
+        
+
+    } 
+    .blogpost{
+        width: 300px; border: 1px solid black;
+        
+        
+    }
+    .blogpost-1{       
+      
+    }   
+    .blogpost-2{
+        flex-grow: 1;   
+    }  
+    .Blogpost-3{
+        
+    }
+    .blogpost-4{
+        
+    }
+    .blogpost-5{
+        align-self: center;
+        flex-grow: 5    ;
+        
+
+    }
+       
+    h3{
+        padding: 50px 50px 80px 100px;
+    }
+    .a {
+        display: contents;
+        border: 2px solid red;
+        background-color: #ccc;
+        padding: 10px;
+        width: 200px;
+    }
+    a{
+        color: white
+    }
+
+     ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        a: link{
+            color: red;
+        }
+    .contact{
+        background-color:lightgrey;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        
+    }
+
+        /* media query */
+        @media (min-width: 320px) {
+           h1{
+               line-height: 4rem;
+           }
+        }   
+        @media (min-width: 1024px){
+            body{
+                background-color:goldenrod;
+                color: gainsboro;
+                }
+            h1{
+                font-size: 20px;
+                line-height: 10em;
+            }    
+         }
+        
+        
